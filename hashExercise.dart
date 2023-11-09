@@ -9,7 +9,7 @@ void main() {
     print("Name:");
     voterName = stdin.readLineSync()!;
     if (myMap.containsKey(voterName)) {
-      print("posel von");
+      print("idi na hui");
     } else {
       print("thanks for vote , enter your choise (true/false)");
       var ch = stdin.readLineSync()!;
